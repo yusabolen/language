@@ -1,10 +1,17 @@
+import Header from "./components/Header/Header";
+import Lesson from "./pages/Lesson";
 
 
 
 function App() {
 
 
-  return
+  return(
+    <div>
+      <Header/>
+      <Lesson/>
+    </div>
+  )
 };
 
 

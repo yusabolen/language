@@ -1,0 +1,16 @@
+header{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: xx-large;
+    background-color: rgba(169, 169, 169, 0.767);
+    border-radius: 2rem;
+    
+}
+
+header h1{
+      color: rgb(233, 13, 20);
+    
+
+}
