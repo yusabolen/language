@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Pacifico&display=swap');
+.text{
+    font-family: 'Bungee Shade', cursive;
+    font-family: 'Pacifico', cursive;
+    text-align:center;
+    font-size: 3rem;
+    
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2rem;
+    gap: 1rem;
+}
+.section{
+    display: flex;
+    
+    align-items: center;
+}
+.lesson{
+    display: inline-block;
+    margin: 1rem;
+    
+}
+span{
+    color: chocolate;
+}
+

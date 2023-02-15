@@ -1,5 +1,6 @@
 import React from 'react'
-import LessonCard from '../components/LessonCard/LessonCard'
+import LessonCard from '../components/LessonCard/LessonCard';
+
 import './Lesson.css'
 const Lesson
  = () => {
@@ -12,4 +13,4 @@ const Lesson
 }
 
 
-export default Lesson
+export default Lesson;
