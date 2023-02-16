@@ -1,28 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Pacifico&display=swap');
-.text{
-    font-family: 'Bungee Shade', cursive;
-    font-family: 'Pacifico', cursive;
-    text-align:center;
-    font-size: 3rem;
-    
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Pacifico&display=swap");
+.text {
+  font-family: "Bungee Shade", cursive;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 3rem;
+  color: aliceblue;
 }
-.main{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin: 2rem;
-    gap: 1rem;
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem;
+  gap: 1rem;
+  box-shadow: 5px 5px 7px;
+  border-radius: 10px;
+  background-color: #8ec5fc67;
+  background-image: linear-gradient(62deg, #8ec5fc9d 0%, #e0c3fca1 100%);
+  padding: 1rem;
 }
-.section{
-    display: flex;
-    
-    align-items: center;
+.section {
+  display: flex;
+
+  align-items: center;
 }
-.lesson{
-    display: inline-block;
-    margin: 1rem;
-    
+.lesson {
+  display: inline-block;
+  margin: 1rem;
 }
-span{
-    color: chocolate;
+span {
+  color: chocolate;
 }
 
+@media screen and (max-width: 1286px) {
+  .main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 876px) {
+    .main {
+       
+        grid-template-columns: repeat(1,1fr);
+    }
+}
